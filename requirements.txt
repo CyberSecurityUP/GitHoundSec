@@ -1,0 +1,6 @@
+customtkinter
+PyGithub
+requests
+pyyaml
+Jinja2
+WeasyPrint

@@ -1,0 +1,168 @@
+### frontend/main_gui.py
+import customtkinter as ctk
+from tkinter import messagebox
+from backend.github_collector import collect_repos
+from backend.run_trufflehog_single import run_trufflehog_generic
+from backend.actions_audit import audit_repo_actions
+import subprocess
+import os
+
+ctk.set_appearance_mode("Dark")
+ctk.set_default_color_theme("blue")
+
+class GitHoundSecApp(ctk.CTk):
+    def __init__(self):
+        super().__init__()
+        self.title("GitHoundSec - GitHub Security Auditor")
+        self.geometry("700x650")
+
+        self.tabview = ctk.CTkTabview(self, width=680, height=620)
+        self.tabview.pack(padx=10, pady=10)
+
+        self.home_tab = self.tabview.add("Home")
+        self.trufflehog_tab = self.tabview.add("TruffleHog")
+        self.gitleaks_tab = self.tabview.add("Gitleaks")
+        self.actions_tab = self.tabview.add("GitHub Actions")
+
+        self.setup_home_tab()
+        self.setup_trufflehog_tab()
+        self.setup_gitleaks_tab()
+        self.setup_actions_tab()
+
+    def setup_home_tab(self):
+        self.token_label = ctk.CTkLabel(self.home_tab, text="GitHub Token:")
+        self.token_label.pack(pady=10)
+        self.token_entry = ctk.CTkEntry(self.home_tab, width=400)
+        self.token_entry.pack(pady=5)
+
+        self.org_label = ctk.CTkLabel(self.home_tab, text="Nome da Organização ou Usuário:")
+        self.org_label.pack(pady=10)
+        self.org_entry = ctk.CTkEntry(self.home_tab, width=400)
+        self.org_entry.pack(pady=5)
+
+        self.collect_button = ctk.CTkButton(self.home_tab, text="Coletar Repositórios", command=self.start_collection)
+        self.collect_button.pack(pady=20)
+
+        self.output_box = ctk.CTkTextbox(self.home_tab, width=650, height=200)
+        self.output_box.pack(pady=10)
+
+    def setup_trufflehog_tab(self):
+        self.th_target_label = ctk.CTkLabel(self.trufflehog_tab, text="Nome da Organização ou URL do Repositório:")
+        self.th_target_label.pack(pady=10)
+        self.th_target_entry = ctk.CTkEntry(self.trufflehog_tab, width=500)
+        self.th_target_entry.pack(pady=5)
+
+        self.th_scan_button = ctk.CTkButton(self.trufflehog_tab, text="Rodar TruffleHog", command=self.run_trufflehog_scan)
+        self.th_scan_button.pack(pady=10)
+
+        self.th_output = ctk.CTkTextbox(self.trufflehog_tab, width=650, height=300)
+        self.th_output.pack(pady=10)
+
+    def setup_gitleaks_tab(self):
+        self.gl_repo_label = ctk.CTkLabel(self.gitleaks_tab, text="URL do Repositório para Gitleaks:")
+        self.gl_repo_label.pack(pady=10)
+        self.gl_repo_entry = ctk.CTkEntry(self.gitleaks_tab, width=500)
+        self.gl_repo_entry.pack(pady=5)
+
+        self.gl_clone_button = ctk.CTkButton(self.gitleaks_tab, text="Clonar Repositório", command=self.clone_repo_for_gitleaks)
+        self.gl_clone_button.pack(pady=10)
+
+        self.gl_cmd_label = ctk.CTkLabel(self.gitleaks_tab, text="Terminal Gitleaks (Digite comandos abaixo):")
+        self.gl_cmd_label.pack(pady=5)
+        self.gl_cmd_entry = ctk.CTkEntry(self.gitleaks_tab, width=600)
+        self.gl_cmd_entry.pack(pady=5)
+
+        self.gl_run_button = ctk.CTkButton(self.gitleaks_tab, text="Executar Comando", command=self.run_gitleaks_command)
+        self.gl_run_button.pack(pady=5)
+
+        self.gl_output = ctk.CTkTextbox(self.gitleaks_tab, width=650, height=300)
+        self.gl_output.pack(pady=10)
+
+    def setup_actions_tab(self):
+        self.action_repo_label = ctk.CTkLabel(self.actions_tab, text="URL do Repositório GitHub:")
+        self.action_repo_label.pack(pady=10)
+        self.action_repo_entry = ctk.CTkEntry(self.actions_tab, width=500)
+        self.action_repo_entry.pack(pady=5)
+
+        self.action_scan_button = ctk.CTkButton(self.actions_tab, text="Auditar Workflows", command=self.start_actions_audit)
+        self.action_scan_button.pack(pady=20)
+
+        self.action_output = ctk.CTkTextbox(self.actions_tab, width=650, height=250)
+        self.action_output.pack(pady=10)
+
+    def start_collection(self):
+        token = self.token_entry.get()
+        org = self.org_entry.get()
+        if not token or not org:
+            messagebox.showerror("Erro", "Token e organização são obrigatórios.")
+            return
+        self.output_box.delete("1.0", "end")
+        try:
+            repos = collect_repos(token, org)
+            for r in repos:
+                self.output_box.insert("end", f"{r}\n")
+        except Exception as e:
+            messagebox.showerror("Erro ao coletar repositórios", str(e))
+
+    def run_trufflehog_scan(self):
+        target = self.th_target_entry.get()
+        if not target:
+            messagebox.showerror("Erro", "Informe a organização ou URL do repositório.")
+            return
+        self.th_output.delete("1.0", "end")
+        try:
+            output_path = os.path.join("outputs", f"{target.replace('/', '_')}_trufflehog.json")
+            result = run_trufflehog_generic(target, output_path)
+            self.th_output.insert("end", f"TruffleHog finalizado. Resultado salvo em: {result}\n")
+        except Exception as e:
+            messagebox.showerror("Erro ao executar TruffleHog", str(e))
+
+    def clone_repo_for_gitleaks(self):
+        repo_url = self.gl_repo_entry.get()
+        if not repo_url:
+            messagebox.showerror("Erro", "Informe a URL do repositório.")
+            return
+        repo_name = repo_url.split("/")[-1].replace(".git", "")
+        dest_path = os.path.join("temp_repos", repo_name)
+        os.makedirs("temp_repos", exist_ok=True)
+        subprocess.run(["git", "clone", repo_url, dest_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        self.gl_output.insert("end", f"[+] Repositório clonado para: {dest_path}\n")
+
+    def run_gitleaks_command(self):
+        cmd = self.gl_cmd_entry.get()
+        if not cmd:
+            messagebox.showerror("Erro", "Digite um comando para executar.")
+            return
+        self.gl_output.insert("end", f"$ {cmd}\n")
+        try:
+            result = subprocess.run(cmd, shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+            if result.stdout:
+                self.gl_output.insert("end", result.stdout)
+            if result.stderr:
+                self.gl_output.insert("end", result.stderr)
+        except Exception as e:
+            self.gl_output.insert("end", f"Erro: {e}\n")
+
+    def start_actions_audit(self):
+        repo_url = self.action_repo_entry.get()
+        if not repo_url:
+            messagebox.showerror("Erro", "Informe a URL do repositório.")
+            return
+        self.action_output.delete("1.0", "end")
+        try:
+            repo_name = repo_url.split("/")[-1]
+            local_path = os.path.join("temp_repos", repo_name)
+            os.makedirs("temp_repos", exist_ok=True)
+            subprocess.run(["git", "clone", repo_url, local_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            findings = audit_repo_actions(local_path)
+            if findings:
+                for f in findings:
+                    self.action_output.insert("end", f + "\n")
+            else:
+                self.action_output.insert("end", "Nenhum risco identificado nos workflows.")
+        except Exception as e:
+            messagebox.showerror("Erro na auditoria de Actions", str(e))
+
+if __name__ == "__main__":
+    app = GitHoundSecApp()
+    app.mainloop()
