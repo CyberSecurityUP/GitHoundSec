@@ -1,0 +1,6 @@
+# python
+*.pyc
+.python-*
+__pycache__/
+.venv
+.mypy_cache/

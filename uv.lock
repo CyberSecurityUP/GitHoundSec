@@ -1,0 +1,858 @@
+version = 1
+requires-python = ">=3.12"
+
+[[package]]
+name = "asttokens"
+version = "3.0.0"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/asttokens/3/asttokens-3.0.0.tar.gz", hash = "sha256:0dcd8baa8d62b0c1d118b399b2ddba3c4aff271d0d7a9e0d4c1681c79035bbc7" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/asttokens/3/asttokens-3.0.0-py3-none-any.whl", hash = "sha256:e3078351a059199dd5138cb1c706e6430c05eff2ff136af5eb4790f9d28932e2" },
+]
+
+[[package]]
+name = "brotli"
+version = "1.1.0"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotli/1.1/Brotli-1.1.0.tar.gz", hash = "sha256:81de08ac11bcb85841e440c13611c00b67d3bf82698314928d0b676362546724" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotli/1.1/Brotli-1.1.0-cp312-cp312-macosx_10_13_universal2.whl", hash = "sha256:32d95b80260d79926f5fab3c41701dbb818fde1c9da590e77e571eefd14abe28" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotli/1.1/Brotli-1.1.0-cp312-cp312-macosx_10_13_x86_64.whl", hash = "sha256:b760c65308ff1e462f65d69c12e4ae085cff3b332d894637f6273a12a482d09f" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotli/1.1/Brotli-1.1.0-cp312-cp312-macosx_10_9_universal2.whl", hash = "sha256:316cc9b17edf613ac76b1f1f305d2a748f1b976b033b049a6ecdfd5612c70409" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotli/1.1/Brotli-1.1.0-cp312-cp312-macosx_10_9_x86_64.whl", hash = "sha256:caf9ee9a5775f3111642d33b86237b05808dafcd6268faa492250e9b78046eb2" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotli/1.1/Brotli-1.1.0-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:70051525001750221daa10907c77830bc889cb6d865cc0b813d9db7fefc21451" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotli/1.1/Brotli-1.1.0-cp312-cp312-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:7f4bf76817c14aa98cc6697ac02f3972cb8c3da93e9ef16b9c66573a68014f91" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotli/1.1/Brotli-1.1.0-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:d0c5516f0aed654134a2fc936325cc2e642f8a0e096d075209672eb321cff408" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotli/1.1/Brotli-1.1.0-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:6c3020404e0b5eefd7c9485ccf8393cfb75ec38ce75586e046573c9dc29967a0" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotli/1.1/Brotli-1.1.0-cp312-cp312-musllinux_1_1_aarch64.whl", hash = "sha256:4ed11165dd45ce798d99a136808a794a748d5dc38511303239d4e2363c0695dc" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotli/1.1/Brotli-1.1.0-cp312-cp312-musllinux_1_1_i686.whl", hash = "sha256:4093c631e96fdd49e0377a9c167bfd75b6d0bad2ace734c6eb20b348bc3ea180" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotli/1.1/Brotli-1.1.0-cp312-cp312-musllinux_1_1_ppc64le.whl", hash = "sha256:7e4c4629ddad63006efa0ef968c8e4751c5868ff0b1c5c40f76524e894c50248" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotli/1.1/Brotli-1.1.0-cp312-cp312-musllinux_1_1_x86_64.whl", hash = "sha256:861bf317735688269936f755fa136a99d1ed526883859f86e41a5d43c61d8966" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotli/1.1/Brotli-1.1.0-cp312-cp312-musllinux_1_2_aarch64.whl", hash = "sha256:87a3044c3a35055527ac75e419dfa9f4f3667a1e887ee80360589eb8c90aabb9" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotli/1.1/Brotli-1.1.0-cp312-cp312-musllinux_1_2_i686.whl", hash = "sha256:c5529b34c1c9d937168297f2c1fde7ebe9ebdd5e121297ff9c043bdb2ae3d6fb" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotli/1.1/Brotli-1.1.0-cp312-cp312-musllinux_1_2_ppc64le.whl", hash = "sha256:ca63e1890ede90b2e4454f9a65135a4d387a4585ff8282bb72964fab893f2111" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotli/1.1/Brotli-1.1.0-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:e79e6520141d792237c70bcd7a3b122d00f2613769ae0cb61c52e89fd3443839" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotli/1.1/Brotli-1.1.0-cp312-cp312-win32.whl", hash = "sha256:5f4d5ea15c9382135076d2fb28dde923352fe02951e66935a9efaac8f10e81b0" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotli/1.1/Brotli-1.1.0-cp312-cp312-win_amd64.whl", hash = "sha256:906bc3a79de8c4ae5b86d3d75a8b77e44404b0f4261714306e3ad248d8ab0951" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotli/1.1/Brotli-1.1.0-cp313-cp313-macosx_10_13_universal2.whl", hash = "sha256:8bf32b98b75c13ec7cf774164172683d6e7891088f6316e54425fde1efc276d5" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotli/1.1/Brotli-1.1.0-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:7bc37c4d6b87fb1017ea28c9508b36bbcb0c3d18b4260fcdf08b200c74a6aee8" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotli/1.1/Brotli-1.1.0-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:3c0ef38c7a7014ffac184db9e04debe495d317cc9c6fb10071f7fefd93100a4f" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotli/1.1/Brotli-1.1.0-cp313-cp313-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:91d7cc2a76b5567591d12c01f019dd7afce6ba8cba6571187e21e2fc418ae648" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotli/1.1/Brotli-1.1.0-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:a93dde851926f4f2678e704fadeb39e16c35d8baebd5252c9fd94ce8ce68c4a0" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotli/1.1/Brotli-1.1.0-cp313-cp313-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:f0db75f47be8b8abc8d9e31bc7aad0547ca26f24a54e6fd10231d623f183d089" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotli/1.1/Brotli-1.1.0-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:6967ced6730aed543b8673008b5a391c3b1076d834ca438bbd70635c73775368" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotli/1.1/Brotli-1.1.0-cp313-cp313-musllinux_1_2_i686.whl", hash = "sha256:7eedaa5d036d9336c95915035fb57422054014ebdeb6f3b42eac809928e40d0c" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotli/1.1/Brotli-1.1.0-cp313-cp313-musllinux_1_2_ppc64le.whl", hash = "sha256:d487f5432bf35b60ed625d7e1b448e2dc855422e87469e3f450aa5552b0eb284" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotli/1.1/Brotli-1.1.0-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:832436e59afb93e1836081a20f324cb185836c617659b07b129141a8426973c7" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotli/1.1/Brotli-1.1.0-cp313-cp313-win32.whl", hash = "sha256:43395e90523f9c23a3d5bdf004733246fba087f2948f87ab28015f12359ca6a0" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotli/1.1/Brotli-1.1.0-cp313-cp313-win_amd64.whl", hash = "sha256:9011560a466d2eb3f5a6e4929cf4a09be405c64154e12df0dd72713f6500e32b" },
+]
+
+[[package]]
+name = "brotlicffi"
+version = "1.1.0.0"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+dependencies = [
+    { name = "cffi" },
+]
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotlicffi/1.1/brotlicffi-1.1.0.0.tar.gz", hash = "sha256:b77827a689905143f87915310b93b273ab17888fd43ef350d4832c4a71083c13" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotlicffi/1.1/brotlicffi-1.1.0.0-cp37-abi3-macosx_10_9_x86_64.whl", hash = "sha256:9b7ae6bd1a3f0df532b6d67ff674099a96d22bc0948955cb338488c31bfb8851" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotlicffi/1.1/brotlicffi-1.1.0.0-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:19ffc919fa4fc6ace69286e0a23b3789b4219058313cf9b45625016bf7ff996b" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotlicffi/1.1/brotlicffi-1.1.0.0-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:9feb210d932ffe7798ee62e6145d3a757eb6233aa9a4e7db78dd3690d7755814" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotlicffi/1.1/brotlicffi-1.1.0.0-cp37-abi3-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:84763dbdef5dd5c24b75597a77e1b30c66604725707565188ba54bab4f114820" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotlicffi/1.1/brotlicffi-1.1.0.0-cp37-abi3-win32.whl", hash = "sha256:1b12b50e07c3911e1efa3a8971543e7648100713d4e0971b13631cce22c587eb" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/brotlicffi/1.1/brotlicffi-1.1.0.0-cp37-abi3-win_amd64.whl", hash = "sha256:994a4f0681bb6c6c3b0925530a1926b7a189d878e6e5e38fae8efa47c5d9c613" },
+]
+
+[[package]]
+name = "certifi"
+version = "2025.4.26"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/certifi/2025.4.26/certifi-2025.4.26.tar.gz", hash = "sha256:0a816057ea3cdefcef70270d2c515e4506bbc954f417fa5ade2021213bb8f0c6" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/certifi/2025.4.26/certifi-2025.4.26-py3-none-any.whl", hash = "sha256:30350364dfe371162649852c63336a15c70c6510c2ad5015b21c2345311805f3" },
+]
+
+[[package]]
+name = "cffi"
+version = "1.17.1"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+dependencies = [
+    { name = "pycparser" },
+]
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cffi/1.17.1/cffi-1.17.1.tar.gz", hash = "sha256:1c39c6016c32bc48dd54561950ebd6836e1670f2ae46128f67cf49e789c52824" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cffi/1.17.1/cffi-1.17.1-cp312-cp312-macosx_10_9_x86_64.whl", hash = "sha256:805b4371bf7197c329fcb3ead37e710d1bca9da5d583f5073b799d5c5bd1eee4" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cffi/1.17.1/cffi-1.17.1-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:733e99bc2df47476e3848417c5a4540522f234dfd4ef3ab7fafdf555b082ec0c" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cffi/1.17.1/cffi-1.17.1-cp312-cp312-manylinux_2_12_i686.manylinux2010_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:1257bdabf294dceb59f5e70c64a3e2f462c30c7ad68092d01bbbfb1c16b1ba36" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cffi/1.17.1/cffi-1.17.1-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:da95af8214998d77a98cc14e3a3bd00aa191526343078b530ceb0bd710fb48a5" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cffi/1.17.1/cffi-1.17.1-cp312-cp312-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:d63afe322132c194cf832bfec0dc69a99fb9bb6bbd550f161a49e9e855cc78ff" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cffi/1.17.1/cffi-1.17.1-cp312-cp312-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:f79fc4fc25f1c8698ff97788206bb3c2598949bfe0fef03d299eb1b5356ada99" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cffi/1.17.1/cffi-1.17.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:b62ce867176a75d03a665bad002af8e6d54644fad99a3c70905c543130e39d93" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cffi/1.17.1/cffi-1.17.1-cp312-cp312-musllinux_1_1_aarch64.whl", hash = "sha256:386c8bf53c502fff58903061338ce4f4950cbdcb23e2902d86c0f722b786bbe3" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cffi/1.17.1/cffi-1.17.1-cp312-cp312-musllinux_1_1_x86_64.whl", hash = "sha256:4ceb10419a9adf4460ea14cfd6bc43d08701f0835e979bf821052f1805850fe8" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cffi/1.17.1/cffi-1.17.1-cp312-cp312-win32.whl", hash = "sha256:a08d7e755f8ed21095a310a693525137cfe756ce62d066e53f502a83dc550f65" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cffi/1.17.1/cffi-1.17.1-cp312-cp312-win_amd64.whl", hash = "sha256:51392eae71afec0d0c8fb1a53b204dbb3bcabcb3c9b807eedf3e1e6ccf2de903" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cffi/1.17.1/cffi-1.17.1-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:f3a2b4222ce6b60e2e8b337bb9596923045681d71e5a082783484d845390938e" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cffi/1.17.1/cffi-1.17.1-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:0984a4925a435b1da406122d4d7968dd861c1385afe3b45ba82b750f229811e2" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cffi/1.17.1/cffi-1.17.1-cp313-cp313-manylinux_2_12_i686.manylinux2010_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:d01b12eeeb4427d3110de311e1774046ad344f5b1a7403101878976ecd7a10f3" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cffi/1.17.1/cffi-1.17.1-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:706510fe141c86a69c8ddc029c7910003a17353970cff3b904ff0686a5927683" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cffi/1.17.1/cffi-1.17.1-cp313-cp313-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:de55b766c7aa2e2a3092c51e0483d700341182f08e67c63630d5b6f200bb28e5" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cffi/1.17.1/cffi-1.17.1-cp313-cp313-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:c59d6e989d07460165cc5ad3c61f9fd8f1b4796eacbd81cee78957842b834af4" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cffi/1.17.1/cffi-1.17.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:dd398dbc6773384a17fe0d3e7eeb8d1a21c2200473ee6806bb5e6a8e62bb73dd" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cffi/1.17.1/cffi-1.17.1-cp313-cp313-musllinux_1_1_aarch64.whl", hash = "sha256:3edc8d958eb099c634dace3c7e16560ae474aa3803a5df240542b305d14e14ed" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cffi/1.17.1/cffi-1.17.1-cp313-cp313-musllinux_1_1_x86_64.whl", hash = "sha256:72e72408cad3d5419375fc87d289076ee319835bdfa2caad331e377589aebba9" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cffi/1.17.1/cffi-1.17.1-cp313-cp313-win32.whl", hash = "sha256:e03eab0a8677fa80d646b5ddece1cbeaf556c313dcfac435ba11f107ba117b5d" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cffi/1.17.1/cffi-1.17.1-cp313-cp313-win_amd64.whl", hash = "sha256:f6a16c31041f09ead72d69f583767292f750d24913dadacf5756b966aacb3f1a" },
+]
+
+[[package]]
+name = "charset-normalizer"
+version = "3.4.1"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/charset-normalizer/3.4.1/charset_normalizer-3.4.1.tar.gz", hash = "sha256:44251f18cd68a75b56585dd00dae26183e102cd5e0f9f1466e6df5da2ed64ea3" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp312-cp312-macosx_10_13_universal2.whl", hash = "sha256:73d94b58ec7fecbc7366247d3b0b10a21681004153238750bb67bd9012414545" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:dad3e487649f498dd991eeb901125411559b22e8d7ab25d3aeb1af367df5efd7" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp312-cp312-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:c30197aa96e8eed02200a83fba2657b4c3acd0f0aa4bdc9f6c1af8e8962e0757" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp312-cp312-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:2369eea1ee4a7610a860d88f268eb39b95cb588acd7235e02fd5a5601773d4fa" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:bc2722592d8998c870fa4e290c2eec2c1569b87fe58618e67d38b4665dfa680d" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:ffc9202a29ab3920fa812879e95a9e78b2465fd10be7fcbd042899695d75e616" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp312-cp312-musllinux_1_2_aarch64.whl", hash = "sha256:804a4d582ba6e5b747c625bf1255e6b1507465494a40a2130978bda7b932c90b" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp312-cp312-musllinux_1_2_i686.whl", hash = "sha256:0f55e69f030f7163dffe9fd0752b32f070566451afe180f99dbeeb81f511ad8d" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp312-cp312-musllinux_1_2_ppc64le.whl", hash = "sha256:c4c3e6da02df6fa1410a7680bd3f63d4f710232d3139089536310d027950696a" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp312-cp312-musllinux_1_2_s390x.whl", hash = "sha256:5df196eb874dae23dcfb968c83d4f8fdccb333330fe1fc278ac5ceeb101003a9" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:e358e64305fe12299a08e08978f51fc21fac060dcfcddd95453eabe5b93ed0e1" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp312-cp312-win32.whl", hash = "sha256:9b23ca7ef998bc739bf6ffc077c2116917eabcc901f88da1b9856b210ef63f35" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp312-cp312-win_amd64.whl", hash = "sha256:6ff8a4a60c227ad87030d76e99cd1698345d4491638dfa6673027c48b3cd395f" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp313-cp313-macosx_10_13_universal2.whl", hash = "sha256:aabfa34badd18f1da5ec1bc2715cadc8dca465868a4e73a0173466b688f29dda" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:22e14b5d70560b8dd51ec22863f370d1e595ac3d024cb8ad7d308b4cd95f8313" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp313-cp313-manylinux_2_17_ppc64le.manylinux2014_ppc64le.whl", hash = "sha256:8436c508b408b82d87dc5f62496973a1805cd46727c34440b0d29d8a2f50a6c9" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp313-cp313-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:2d074908e1aecee37a7635990b2c6d504cd4766c7bc9fc86d63f9c09af3fa11b" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:955f8851919303c92343d2f66165294848d57e9bba6cf6e3625485a70a038d11" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp313-cp313-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:44ecbf16649486d4aebafeaa7ec4c9fed8b88101f4dd612dcaf65d5e815f837f" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:0924e81d3d5e70f8126529951dac65c1010cdf117bb75eb02dd12339b57749dd" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp313-cp313-musllinux_1_2_i686.whl", hash = "sha256:2967f74ad52c3b98de4c3b32e1a44e32975e008a9cd2a8cc8966d6a5218c5cb2" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp313-cp313-musllinux_1_2_ppc64le.whl", hash = "sha256:c75cb2a3e389853835e84a2d8fb2b81a10645b503eca9bcb98df6b5a43eb8886" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp313-cp313-musllinux_1_2_s390x.whl", hash = "sha256:09b26ae6b1abf0d27570633b2b078a2a20419c99d66fb2823173d73f188ce601" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:fa88b843d6e211393a37219e6a1c1df99d35e8fd90446f1118f4216e307e48cd" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp313-cp313-win32.whl", hash = "sha256:eb8178fe3dba6450a3e024e95ac49ed3400e506fd4e9e5c32d30adda88cbd407" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/charset-normalizer/3.4.1/charset_normalizer-3.4.1-cp313-cp313-win_amd64.whl", hash = "sha256:b1ac5992a838106edb89654e0aebfc24f5848ae2547d22c2c3f66454daa11971" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/charset-normalizer/3.4.1/charset_normalizer-3.4.1-py3-none-any.whl", hash = "sha256:d98b1668f06378c6dbefec3b92299716b931cd4e6061f3c875a71ced1780ab85" },
+]
+
+[[package]]
+name = "colorama"
+version = "0.4.6"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/colorama/0.4.6/colorama-0.4.6.tar.gz", hash = "sha256:08695f5cb7ed6e0531a20572697297273c47b8cae5a63ffc6d6ed5c201be6e44" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/colorama/0.4.6/colorama-0.4.6-py2.py3-none-any.whl", hash = "sha256:4f1d9991f5acc0ca119f9d443620b77f9d6b33703e51011c16baf57afb285fc6" },
+]
+
+[[package]]
+name = "cryptography"
+version = "44.0.2"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+dependencies = [
+    { name = "cffi", marker = "platform_python_implementation != 'PyPy'" },
+]
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cryptography/44.0.2/cryptography-44.0.2.tar.gz", hash = "sha256:c63454aa261a0cf0c5b4718349629793e9e634993538db841165b3df74f37ec0" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cryptography/44.0.2/cryptography-44.0.2-cp37-abi3-macosx_10_9_universal2.whl", hash = "sha256:efcfe97d1b3c79e486554efddeb8f6f53a4cdd4cf6086642784fa31fc384e1d7" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cryptography/44.0.2/cryptography-44.0.2-cp37-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:29ecec49f3ba3f3849362854b7253a9f59799e3763b0c9d0826259a88efa02f1" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cryptography/44.0.2/cryptography-44.0.2-cp37-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:bc821e161ae88bfe8088d11bb39caf2916562e0a2dc7b6d56714a48b784ef0bb" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cryptography/44.0.2/cryptography-44.0.2-cp37-abi3-manylinux_2_28_aarch64.whl", hash = "sha256:3c00b6b757b32ce0f62c574b78b939afab9eecaf597c4d624caca4f9e71e7843" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cryptography/44.0.2/cryptography-44.0.2-cp37-abi3-manylinux_2_28_armv7l.manylinux_2_31_armv7l.whl", hash = "sha256:7bdcd82189759aba3816d1f729ce42ffded1ac304c151d0a8e89b9996ab863d5" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cryptography/44.0.2/cryptography-44.0.2-cp37-abi3-manylinux_2_28_x86_64.whl", hash = "sha256:4973da6ca3db4405c54cd0b26d328be54c7747e89e284fcff166132eb7bccc9c" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cryptography/44.0.2/cryptography-44.0.2-cp37-abi3-manylinux_2_34_aarch64.whl", hash = "sha256:4e389622b6927d8133f314949a9812972711a111d577a5d1f4bee5e58736b80a" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cryptography/44.0.2/cryptography-44.0.2-cp37-abi3-manylinux_2_34_x86_64.whl", hash = "sha256:f514ef4cd14bb6fb484b4a60203e912cfcb64f2ab139e88c2274511514bf7308" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cryptography/44.0.2/cryptography-44.0.2-cp37-abi3-musllinux_1_2_aarch64.whl", hash = "sha256:1bc312dfb7a6e5d66082c87c34c8a62176e684b6fe3d90fcfe1568de675e6688" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cryptography/44.0.2/cryptography-44.0.2-cp37-abi3-musllinux_1_2_x86_64.whl", hash = "sha256:3b721b8b4d948b218c88cb8c45a01793483821e709afe5f622861fc6182b20a7" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cryptography/44.0.2/cryptography-44.0.2-cp37-abi3-win32.whl", hash = "sha256:51e4de3af4ec3899d6d178a8c005226491c27c4ba84101bfb59c901e10ca9f79" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cryptography/44.0.2/cryptography-44.0.2-cp37-abi3-win_amd64.whl", hash = "sha256:c505d61b6176aaf982c5717ce04e87da5abc9a36a5b39ac03905c4aafe8de7aa" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cryptography/44.0.2/cryptography-44.0.2-cp39-abi3-macosx_10_9_universal2.whl", hash = "sha256:8e0ddd63e6bf1161800592c71ac794d3fb8001f2caebe0966e77c5234fa9efc3" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cryptography/44.0.2/cryptography-44.0.2-cp39-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:81276f0ea79a208d961c433a947029e1a15948966658cf6710bbabb60fcc2639" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cryptography/44.0.2/cryptography-44.0.2-cp39-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:9a1e657c0f4ea2a23304ee3f964db058c9e9e635cc7019c4aa21c330755ef6fd" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cryptography/44.0.2/cryptography-44.0.2-cp39-abi3-manylinux_2_28_aarch64.whl", hash = "sha256:6210c05941994290f3f7f175a4a57dbbb2afd9273657614c506d5976db061181" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cryptography/44.0.2/cryptography-44.0.2-cp39-abi3-manylinux_2_28_armv7l.manylinux_2_31_armv7l.whl", hash = "sha256:d1c3572526997b36f245a96a2b1713bf79ce99b271bbcf084beb6b9b075f29ea" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cryptography/44.0.2/cryptography-44.0.2-cp39-abi3-manylinux_2_28_x86_64.whl", hash = "sha256:b042d2a275c8cee83a4b7ae30c45a15e6a4baa65a179a0ec2d78ebb90e4f6699" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cryptography/44.0.2/cryptography-44.0.2-cp39-abi3-manylinux_2_34_aarch64.whl", hash = "sha256:d03806036b4f89e3b13b6218fefea8d5312e450935b1a2d55f0524e2ed7c59d9" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cryptography/44.0.2/cryptography-44.0.2-cp39-abi3-manylinux_2_34_x86_64.whl", hash = "sha256:c7362add18b416b69d58c910caa217f980c5ef39b23a38a0880dfd87bdf8cd23" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cryptography/44.0.2/cryptography-44.0.2-cp39-abi3-musllinux_1_2_aarch64.whl", hash = "sha256:8cadc6e3b5a1f144a039ea08a0bdb03a2a92e19c46be3285123d32029f40a922" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cryptography/44.0.2/cryptography-44.0.2-cp39-abi3-musllinux_1_2_x86_64.whl", hash = "sha256:6f101b1f780f7fc613d040ca4bdf835c6ef3b00e9bd7125a4255ec574c7916e4" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cryptography/44.0.2/cryptography-44.0.2-cp39-abi3-win32.whl", hash = "sha256:3dc62975e31617badc19a906481deacdeb80b4bb454394b4098e3f2525a488c5" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cryptography/44.0.2/cryptography-44.0.2-cp39-abi3-win_amd64.whl", hash = "sha256:5f6f90b72d8ccadb9c6e311c775c8305381db88374c65fa1a68250aa8a9cb3a6" },
+]
+
+[[package]]
+name = "cssselect2"
+version = "0.8.0"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+dependencies = [
+    { name = "tinycss2" },
+    { name = "webencodings" },
+]
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cssselect2/0.8/cssselect2-0.8.0.tar.gz", hash = "sha256:7674ffb954a3b46162392aee2a3a0aedb2e14ecf99fcc28644900f4e6e3e9d3a" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/cssselect2/0.8/cssselect2-0.8.0-py3-none-any.whl", hash = "sha256:46fc70ebc41ced7a32cd42d58b1884d72ade23d21e5a4eaaf022401c13f0e76e" },
+]
+
+[[package]]
+name = "customtkinter"
+version = "5.2.2"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+dependencies = [
+    { name = "darkdetect" },
+    { name = "packaging" },
+]
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/customtkinter/5.2.2/customtkinter-5.2.2.tar.gz", hash = "sha256:fd8db3bafa961c982ee6030dba80b4c2e25858630756b513986db19113d8d207" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/customtkinter/5.2.2/customtkinter-5.2.2-py3-none-any.whl", hash = "sha256:14ad3e7cd3cb3b9eb642b9d4e8711ae80d3f79fb82545ad11258eeffb2e6b37c" },
+]
+
+[[package]]
+name = "darkdetect"
+version = "0.8.0"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/darkdetect/0.8/darkdetect-0.8.0.tar.gz", hash = "sha256:b5428e1170263eb5dea44c25dc3895edd75e6f52300986353cd63533fe7df8b1" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/darkdetect/0.8/darkdetect-0.8.0-py3-none-any.whl", hash = "sha256:a7509ccf517eaad92b31c214f593dbcf138ea8a43b2935406bbd565e15527a85" },
+]
+
+[[package]]
+name = "decorator"
+version = "5.2.1"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/decorator/5.2.1/decorator-5.2.1.tar.gz", hash = "sha256:65f266143752f734b0a7cc83c46f4618af75b8c5911b00ccb61d0ac9b6da0360" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/decorator/5.2.1/decorator-5.2.1-py3-none-any.whl", hash = "sha256:d316bb415a2d9e2d2b3abcc4084c6502fc09240e292cd76a76afc106a1c8e04a" },
+]
+
+[[package]]
+name = "deprecated"
+version = "1.2.18"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+dependencies = [
+    { name = "wrapt" },
+]
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/deprecated/1.2.18/deprecated-1.2.18.tar.gz", hash = "sha256:422b6f6d859da6f2ef57857761bfb392480502a64c3028ca9bbe86085d72115d" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/deprecated/1.2.18/Deprecated-1.2.18-py2.py3-none-any.whl", hash = "sha256:bd5011788200372a32418f888e326a09ff80d0214bd961147cfed01b5c018eec" },
+]
+
+[[package]]
+name = "executing"
+version = "2.2.0"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/executing/2.2/executing-2.2.0.tar.gz", hash = "sha256:5d108c028108fe2551d1a7b2e8b713341e2cb4fc0aa7dcf966fa4327a5226755" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/executing/2.2/executing-2.2.0-py2.py3-none-any.whl", hash = "sha256:11387150cad388d62750327a53d3339fad4888b39a6fe233c3afbb54ecffd3aa" },
+]
+
+[[package]]
+name = "fonttools"
+version = "4.57.0"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/fonttools/4.57/fonttools-4.57.0.tar.gz", hash = "sha256:727ece10e065be2f9dd239d15dd5d60a66e17eac11aea47d447f9f03fdbc42de" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/fonttools/4.57/fonttools-4.57.0-cp312-cp312-macosx_10_13_universal2.whl", hash = "sha256:889e45e976c74abc7256d3064aa7c1295aa283c6bb19810b9f8b604dfe5c7f31" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/fonttools/4.57/fonttools-4.57.0-cp312-cp312-macosx_10_13_x86_64.whl", hash = "sha256:0425c2e052a5f1516c94e5855dbda706ae5a768631e9fcc34e57d074d1b65b92" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/fonttools/4.57/fonttools-4.57.0-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:44c26a311be2ac130f40a96769264809d3b0cb297518669db437d1cc82974888" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/fonttools/4.57/fonttools-4.57.0-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:84c41ba992df5b8d680b89fd84c6a1f2aca2b9f1ae8a67400c8930cd4ea115f6" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/fonttools/4.57/fonttools-4.57.0-cp312-cp312-musllinux_1_2_aarch64.whl", hash = "sha256:ea1e9e43ca56b0c12440a7c689b1350066595bebcaa83baad05b8b2675129d98" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/fonttools/4.57/fonttools-4.57.0-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:84fd56c78d431606332a0627c16e2a63d243d0d8b05521257d77c6529abe14d8" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/fonttools/4.57/fonttools-4.57.0-cp312-cp312-win32.whl", hash = "sha256:f4376819c1c778d59e0a31db5dc6ede854e9edf28bbfa5b756604727f7f800ac" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/fonttools/4.57/fonttools-4.57.0-cp312-cp312-win_amd64.whl", hash = "sha256:57e30241524879ea10cdf79c737037221f77cc126a8cdc8ff2c94d4a522504b9" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/fonttools/4.57/fonttools-4.57.0-cp313-cp313-macosx_10_13_universal2.whl", hash = "sha256:408ce299696012d503b714778d89aa476f032414ae57e57b42e4b92363e0b8ef" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/fonttools/4.57/fonttools-4.57.0-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:bbceffc80aa02d9e8b99f2a7491ed8c4a783b2fc4020119dc405ca14fb5c758c" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/fonttools/4.57/fonttools-4.57.0-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:f022601f3ee9e1f6658ed6d184ce27fa5216cee5b82d279e0f0bde5deebece72" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/fonttools/4.57/fonttools-4.57.0-cp313-cp313-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:4dea5893b58d4637ffa925536462ba626f8a1b9ffbe2f5c272cdf2c6ebadb817" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/fonttools/4.57/fonttools-4.57.0-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:dff02c5c8423a657c550b48231d0a48d7e2b2e131088e55983cfe74ccc2c7cc9" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/fonttools/4.57/fonttools-4.57.0-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:767604f244dc17c68d3e2dbf98e038d11a18abc078f2d0f84b6c24571d9c0b13" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/fonttools/4.57/fonttools-4.57.0-cp313-cp313-win32.whl", hash = "sha256:8e2e12d0d862f43d51e5afb8b9751c77e6bec7d2dc00aad80641364e9df5b199" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/fonttools/4.57/fonttools-4.57.0-cp313-cp313-win_amd64.whl", hash = "sha256:f1d6bc9c23356908db712d282acb3eebd4ae5ec6d8b696aa40342b1d84f8e9e3" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/fonttools/4.57/fonttools-4.57.0-py3-none-any.whl", hash = "sha256:3122c604a675513c68bd24c6a8f9091f1c2376d18e8f5fe5a101746c81b3e98f" },
+]
+
+[package.optional-dependencies]
+woff = [
+    { name = "brotli", marker = "platform_python_implementation == 'CPython'" },
+    { name = "brotlicffi", marker = "platform_python_implementation != 'CPython'" },
+    { name = "zopfli" },
+]
+
+[[package]]
+name = "githoundsec"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "customtkinter" },
+    { name = "jinja2" },
+    { name = "pygithub" },
+    { name = "pyvis" },
+    { name = "pyyaml" },
+    { name = "requests" },
+    { name = "weasyprint" },
+]
+
+[package.metadata]
+requires-dist = [
+    { name = "customtkinter", specifier = ">=5.2.2" },
+    { name = "jinja2", specifier = ">=3.1.6" },
+    { name = "pygithub", specifier = ">=2.6.1" },
+    { name = "pyvis", specifier = ">=0.3.2" },
+    { name = "pyyaml", specifier = ">=6.0.2" },
+    { name = "requests", specifier = ">=2.32.3" },
+    { name = "weasyprint", specifier = ">=65.1" },
+]
+
+[[package]]
+name = "idna"
+version = "3.10"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/idna/3.10/idna-3.10.tar.gz", hash = "sha256:12f65c9b470abda6dc35cf8e63cc574b1c52b11df2c86030af0ac09b01b13ea9" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/idna/3.10/idna-3.10-py3-none-any.whl", hash = "sha256:946d195a0d259cbba61165e88e65941f16e9b36ea6ddb97f00452bae8b1287d3" },
+]
+
+[[package]]
+name = "ipython"
+version = "9.2.0"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+dependencies = [
+    { name = "colorama", marker = "sys_platform == 'win32'" },
+    { name = "decorator" },
+    { name = "ipython-pygments-lexers" },
+    { name = "jedi" },
+    { name = "matplotlib-inline" },
+    { name = "pexpect", marker = "sys_platform != 'emscripten' and sys_platform != 'win32'" },
+    { name = "prompt-toolkit" },
+    { name = "pygments" },
+    { name = "stack-data" },
+    { name = "traitlets" },
+]
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/ipython/9.2/ipython-9.2.0.tar.gz", hash = "sha256:62a9373dbc12f28f9feaf4700d052195bf89806279fc8ca11f3f54017d04751b" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/ipython/9.2/ipython-9.2.0-py3-none-any.whl", hash = "sha256:fef5e33c4a1ae0759e0bba5917c9db4eb8c53fee917b6a526bd973e1ca5159f6" },
+]
+
+[[package]]
+name = "ipython-pygments-lexers"
+version = "1.1.1"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+dependencies = [
+    { name = "pygments" },
+]
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/ipython-pygments-lexers/1.1.1/ipython_pygments_lexers-1.1.1.tar.gz", hash = "sha256:09c0138009e56b6854f9535736f4171d855c8c08a563a0dcd8022f78355c7e81" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/ipython-pygments-lexers/1.1.1/ipython_pygments_lexers-1.1.1-py3-none-any.whl", hash = "sha256:a9462224a505ade19a605f71f8fa63c2048833ce50abc86768a0d81d876dc81c" },
+]
+
+[[package]]
+name = "jedi"
+version = "0.19.2"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+dependencies = [
+    { name = "parso" },
+]
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/jedi/0.19.2/jedi-0.19.2.tar.gz", hash = "sha256:4770dc3de41bde3966b02eb84fbcf557fb33cce26ad23da12c742fb50ecb11f0" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/jedi/0.19.2/jedi-0.19.2-py2.py3-none-any.whl", hash = "sha256:a8ef22bde8490f57fe5c7681a3c83cb58874daf72b4784de3cce5b6ef6edb5b9" },
+]
+
+[[package]]
+name = "jinja2"
+version = "3.1.6"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+dependencies = [
+    { name = "markupsafe" },
+]
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/jinja2/3.1.6/jinja2-3.1.6.tar.gz", hash = "sha256:0137fb05990d35f1275a587e9aee6d56da821fc83491a0fb838183be43f66d6d" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/jinja2/3.1.6/jinja2-3.1.6-py3-none-any.whl", hash = "sha256:85ece4451f492d0c13c5dd7c13a64681a86afae63a5f347908daf103ce6d2f67" },
+]
+
+[[package]]
+name = "jsonpickle"
+version = "4.0.5"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/jsonpickle/4.0.5/jsonpickle-4.0.5.tar.gz", hash = "sha256:f299818b39367c361b3f26bdba827d4249ab5d383cd93144d0f94b5417aacb35" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/jsonpickle/4.0.5/jsonpickle-4.0.5-py3-none-any.whl", hash = "sha256:b4ac7d0a75ddcdfd93445737f1d36ff28768690d43e54bf5d0ddb1d915e580df" },
+]
+
+[[package]]
+name = "markupsafe"
+version = "3.0.2"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/markupsafe/3.0.2/markupsafe-3.0.2.tar.gz", hash = "sha256:ee55d3edf80167e48ea11a923c7386f4669df67d7994554387f84e7d8b0a2bf0" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/markupsafe/3.0.2/MarkupSafe-3.0.2-cp312-cp312-macosx_10_13_universal2.whl", hash = "sha256:9778bd8ab0a994ebf6f84c2b949e65736d5575320a17ae8984a77fab08db94cf" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/markupsafe/3.0.2/MarkupSafe-3.0.2-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:846ade7b71e3536c4e56b386c2a47adf5741d2d8b94ec9dc3e92e5e1ee1e2225" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/markupsafe/3.0.2/MarkupSafe-3.0.2-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:1c99d261bd2d5f6b59325c92c73df481e05e57f19837bdca8413b9eac4bd8028" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/markupsafe/3.0.2/MarkupSafe-3.0.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:e17c96c14e19278594aa4841ec148115f9c7615a47382ecb6b82bd8fea3ab0c8" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/markupsafe/3.0.2/MarkupSafe-3.0.2-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:88416bd1e65dcea10bc7569faacb2c20ce071dd1f87539ca2ab364bf6231393c" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/markupsafe/3.0.2/MarkupSafe-3.0.2-cp312-cp312-musllinux_1_2_aarch64.whl", hash = "sha256:2181e67807fc2fa785d0592dc2d6206c019b9502410671cc905d132a92866557" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/markupsafe/3.0.2/MarkupSafe-3.0.2-cp312-cp312-musllinux_1_2_i686.whl", hash = "sha256:52305740fe773d09cffb16f8ed0427942901f00adedac82ec8b67752f58a1b22" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/markupsafe/3.0.2/MarkupSafe-3.0.2-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:ad10d3ded218f1039f11a75f8091880239651b52e9bb592ca27de44eed242a48" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/markupsafe/3.0.2/MarkupSafe-3.0.2-cp312-cp312-win32.whl", hash = "sha256:0f4ca02bea9a23221c0182836703cbf8930c5e9454bacce27e767509fa286a30" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/markupsafe/3.0.2/MarkupSafe-3.0.2-cp312-cp312-win_amd64.whl", hash = "sha256:8e06879fc22a25ca47312fbe7c8264eb0b662f6db27cb2d3bbbc74b1df4b9b87" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313-macosx_10_13_universal2.whl", hash = "sha256:ba9527cdd4c926ed0760bc301f6728ef34d841f405abf9d4f959c478421e4efd" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:f8b3d067f2e40fe93e1ccdd6b2e1d16c43140e76f02fb1319a05cf2b79d99430" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:569511d3b58c8791ab4c2e1285575265991e6d8f8700c7be0e88f86cb0672094" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:15ab75ef81add55874e7ab7055e9c397312385bd9ced94920f2802310c930396" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:f3818cb119498c0678015754eba762e0d61e5b52d34c8b13d770f0719f7b1d79" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:cdb82a876c47801bb54a690c5ae105a46b392ac6099881cdfb9f6e95e4014c6a" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313-musllinux_1_2_i686.whl", hash = "sha256:cabc348d87e913db6ab4aa100f01b08f481097838bdddf7c7a84b7575b7309ca" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:444dcda765c8a838eaae23112db52f1efaf750daddb2d9ca300bcae1039adc5c" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313-win32.whl", hash = "sha256:bcf3e58998965654fdaff38e58584d8937aa3096ab5354d493c77d1fdd66d7a1" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313-win_amd64.whl", hash = "sha256:e6a2a455bd412959b57a172ce6328d2dd1f01cb2135efda2e4576e8a23fa3b0f" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313t-macosx_10_13_universal2.whl", hash = "sha256:b5a6b3ada725cea8a5e634536b1b01c30bcdcd7f9c6fff4151548d5bf6b3a36c" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313t-macosx_11_0_arm64.whl", hash = "sha256:a904af0a6162c73e3edcb969eeeb53a63ceeb5d8cf642fade7d39e7963a22ddb" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313t-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:4aa4e5faecf353ed117801a068ebab7b7e09ffb6e1d5e412dc852e0da018126c" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313t-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:c0ef13eaeee5b615fb07c9a7dadb38eac06a0608b41570d8ade51c56539e509d" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313t-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:d16a81a06776313e817c951135cf7340a3e91e8c1ff2fac444cfd75fffa04afe" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313t-musllinux_1_2_aarch64.whl", hash = "sha256:6381026f158fdb7c72a168278597a5e3a5222e83ea18f543112b2662a9b699c5" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313t-musllinux_1_2_i686.whl", hash = "sha256:3d79d162e7be8f996986c064d1c7c817f6df3a77fe3d6859f6f9e7be4b8c213a" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313t-musllinux_1_2_x86_64.whl", hash = "sha256:131a3c7689c85f5ad20f9f6fb1b866f402c445b220c19fe4308c0b147ccd2ad9" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313t-win32.whl", hash = "sha256:ba8062ed2cf21c07a9e295d5b8a2a5ce678b913b45fdf68c32d95d6c1291e0b6" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/markupsafe/3.0.2/MarkupSafe-3.0.2-cp313-cp313t-win_amd64.whl", hash = "sha256:e444a31f8db13eb18ada366ab3cf45fd4b31e4db1236a4448f68778c1d1a5a2f" },
+]
+
+[[package]]
+name = "matplotlib-inline"
+version = "0.1.7"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+dependencies = [
+    { name = "traitlets" },
+]
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/matplotlib-inline/0.1.7/matplotlib_inline-0.1.7.tar.gz", hash = "sha256:8423b23ec666be3d16e16b60bdd8ac4e86e840ebd1dd11a30b9f117f2fa0ab90" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/matplotlib-inline/0.1.7/matplotlib_inline-0.1.7-py3-none-any.whl", hash = "sha256:df192d39a4ff8f21b1895d72e6a13f5fcc5099f00fa84384e0ea28c2cc0653ca" },
+]
+
+[[package]]
+name = "networkx"
+version = "3.4.2"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/networkx/3.4.2/networkx-3.4.2.tar.gz", hash = "sha256:307c3669428c5362aab27c8a1260aa8f47c4e91d3891f48be0141738d8d053e1" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/networkx/3.4.2/networkx-3.4.2-py3-none-any.whl", hash = "sha256:df5d4365b724cf81b8c6a7312509d0c22386097011ad1abe274afd5e9d3bbc5f" },
+]
+
+[[package]]
+name = "packaging"
+version = "25.0"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/packaging/25/packaging-25.0.tar.gz", hash = "sha256:d443872c98d677bf60f6a1f2f8c1cb748e8fe762d2bf9d3148b5599295b0fc4f" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/packaging/25/packaging-25.0-py3-none-any.whl", hash = "sha256:29572ef2b1f17581046b3a2227d5c611fb25ec70ca1ba8554b24b0e69331a484" },
+]
+
+[[package]]
+name = "parso"
+version = "0.8.4"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/parso/0.8.4/parso-0.8.4.tar.gz", hash = "sha256:eb3a7b58240fb99099a345571deecc0f9540ea5f4dd2fe14c2a99d6b281ab92d" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/parso/0.8.4/parso-0.8.4-py2.py3-none-any.whl", hash = "sha256:a418670a20291dacd2dddc80c377c5c3791378ee1e8d12bffc35420643d43f18" },
+]
+
+[[package]]
+name = "pexpect"
+version = "4.9.0"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+dependencies = [
+    { name = "ptyprocess" },
+]
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pexpect/4.9/pexpect-4.9.0.tar.gz", hash = "sha256:ee7d41123f3c9911050ea2c2dac107568dc43b2d3b0c7557a33212c398ead30f" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pexpect/4.9/pexpect-4.9.0-py2.py3-none-any.whl", hash = "sha256:7236d1e080e4936be2dc3e326cec0af72acf9212a7e1d060210e70a47e253523" },
+]
+
+[[package]]
+name = "pillow"
+version = "11.2.1"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1.tar.gz", hash = "sha256:a64dd61998416367b7ef979b73d3a85853ba9bec4c2925f74e588879a58716b6" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp312-cp312-macosx_10_13_x86_64.whl", hash = "sha256:78afba22027b4accef10dbd5eed84425930ba41b3ea0a86fa8d20baaf19d807f" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:78092232a4ab376a35d68c4e6d5e00dfd73454bd12b230420025fbe178ee3b0b" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:25a5f306095c6780c52e6bbb6109624b95c5b18e40aab1c3041da3e9e0cd3e2d" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:0c7b29dbd4281923a2bfe562acb734cee96bbb129e96e6972d315ed9f232bef4" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp312-cp312-manylinux_2_28_aarch64.whl", hash = "sha256:3e645b020f3209a0181a418bffe7b4a93171eef6c4ef6cc20980b30bebf17b7d" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp312-cp312-manylinux_2_28_x86_64.whl", hash = "sha256:b2dbea1012ccb784a65349f57bbc93730b96e85b42e9bf7b01ef40443db720b4" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp312-cp312-musllinux_1_2_aarch64.whl", hash = "sha256:da3104c57bbd72948d75f6a9389e6727d2ab6333c3617f0a89d72d4940aa0443" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:598174aef4589af795f66f9caab87ba4ff860ce08cd5bb447c6fc553ffee603c" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp312-cp312-win32.whl", hash = "sha256:1d535df14716e7f8776b9e7fee118576d65572b4aad3ed639be9e4fa88a1cad3" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp312-cp312-win_amd64.whl", hash = "sha256:14e33b28bf17c7a38eede290f77db7c664e4eb01f7869e37fa98a5aa95978941" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp312-cp312-win_arm64.whl", hash = "sha256:21e1470ac9e5739ff880c211fc3af01e3ae505859392bf65458c224d0bf283eb" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:fdec757fea0b793056419bca3e9932eb2b0ceec90ef4813ea4c1e072c389eb28" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:b0e130705d568e2f43a17bcbe74d90958e8a16263868a12c3e0d9c8162690830" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:7bdb5e09068332578214cadd9c05e3d64d99e0e87591be22a324bdbc18925be0" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:d189ba1bebfbc0c0e529159631ec72bb9e9bc041f01ec6d3233d6d82eb823bc1" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp313-cp313-manylinux_2_28_aarch64.whl", hash = "sha256:191955c55d8a712fab8934a42bfefbf99dd0b5875078240943f913bb66d46d9f" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp313-cp313-manylinux_2_28_x86_64.whl", hash = "sha256:ad275964d52e2243430472fc5d2c2334b4fc3ff9c16cb0a19254e25efa03a155" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:750f96efe0597382660d8b53e90dd1dd44568a8edb51cb7f9d5d918b80d4de14" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:fe15238d3798788d00716637b3d4e7bb6bde18b26e5d08335a96e88564a36b6b" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp313-cp313-win32.whl", hash = "sha256:3fe735ced9a607fee4f481423a9c36701a39719252a9bb251679635f99d0f7d2" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp313-cp313-win_amd64.whl", hash = "sha256:74ee3d7ecb3f3c05459ba95eed5efa28d6092d751ce9bf20e3e253a4e497e691" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp313-cp313-win_arm64.whl", hash = "sha256:5119225c622403afb4b44bad4c1ca6c1f98eed79db8d3bc6e4e160fc6339d66c" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp313-cp313t-macosx_10_13_x86_64.whl", hash = "sha256:8ce2e8411c7aaef53e6bb29fe98f28cd4fbd9a1d9be2eeea434331aac0536b22" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp313-cp313t-macosx_11_0_arm64.whl", hash = "sha256:9ee66787e095127116d91dea2143db65c7bb1e232f617aa5957c0d9d2a3f23a7" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp313-cp313t-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:9622e3b6c1d8b551b6e6f21873bdcc55762b4b2126633014cea1803368a9aa16" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp313-cp313t-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:63b5dff3a68f371ea06025a1a6966c9a1e1ee452fc8020c2cd0ea41b83e9037b" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp313-cp313t-manylinux_2_28_aarch64.whl", hash = "sha256:31df6e2d3d8fc99f993fd253e97fae451a8db2e7207acf97859732273e108406" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp313-cp313t-manylinux_2_28_x86_64.whl", hash = "sha256:062b7a42d672c45a70fa1f8b43d1d38ff76b63421cbbe7f88146b39e8a558d91" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp313-cp313t-musllinux_1_2_aarch64.whl", hash = "sha256:4eb92eca2711ef8be42fd3f67533765d9fd043b8c80db204f16c8ea62ee1a751" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp313-cp313t-musllinux_1_2_x86_64.whl", hash = "sha256:f91ebf30830a48c825590aede79376cb40f110b387c17ee9bd59932c961044f9" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp313-cp313t-win32.whl", hash = "sha256:e0b55f27f584ed623221cfe995c912c61606be8513bfa0e07d2c674b4516d9dd" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp313-cp313t-win_amd64.whl", hash = "sha256:36d6b82164c39ce5482f649b437382c0fb2395eabc1e2b1702a6deb8ad647d6e" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pillow/11.2.1/pillow-11.2.1-cp313-cp313t-win_arm64.whl", hash = "sha256:225c832a13326e34f212d2072982bb1adb210e0cc0b153e688743018c94a2681" },
+]
+
+[[package]]
+name = "prompt-toolkit"
+version = "3.0.51"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+dependencies = [
+    { name = "wcwidth" },
+]
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/prompt-toolkit/3.0.51/prompt_toolkit-3.0.51.tar.gz", hash = "sha256:931a162e3b27fc90c86f1b48bb1fb2c528c2761475e57c9c06de13311c7b54ed" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/prompt-toolkit/3.0.51/prompt_toolkit-3.0.51-py3-none-any.whl", hash = "sha256:52742911fde84e2d423e2f9a4cf1de7d7ac4e51958f648d9540e0fb8db077b07" },
+]
+
+[[package]]
+name = "ptyprocess"
+version = "0.7.0"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/ptyprocess/0.7/ptyprocess-0.7.0.tar.gz", hash = "sha256:5c5d0a3b48ceee0b48485e0c26037c0acd7d29765ca3fbb5cb3831d347423220" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/ptyprocess/0.7/ptyprocess-0.7.0-py2.py3-none-any.whl", hash = "sha256:4b41f3967fce3af57cc7e94b888626c18bf37a083e3651ca8feeb66d492fef35" },
+]
+
+[[package]]
+name = "pure-eval"
+version = "0.2.3"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pure-eval/0.2.3/pure_eval-0.2.3.tar.gz", hash = "sha256:5f4e983f40564c576c7c8635ae88db5956bb2229d7e9237d03b3c0b0190eaf42" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pure-eval/0.2.3/pure_eval-0.2.3-py3-none-any.whl", hash = "sha256:1db8e35b67b3d218d818ae653e27f06c3aa420901fa7b081ca98cbedc874e0d0" },
+]
+
+[[package]]
+name = "pycparser"
+version = "2.22"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pycparser/2.22/pycparser-2.22.tar.gz", hash = "sha256:491c8be9c040f5390f5bf44a5b07752bd07f56edf992381b05c701439eec10f6" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pycparser/2.22/pycparser-2.22-py3-none-any.whl", hash = "sha256:c3702b6d3dd8c7abc1afa565d7e63d53a1d0bd86cdc24edd75470f4de499cfcc" },
+]
+
+[[package]]
+name = "pydyf"
+version = "0.11.0"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pydyf/0.11/pydyf-0.11.0.tar.gz", hash = "sha256:394dddf619cca9d0c55715e3c55ea121a9bf9cbc780cdc1201a2427917b86b64" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pydyf/0.11/pydyf-0.11.0-py3-none-any.whl", hash = "sha256:0aaf9e2ebbe786ec7a78ec3fbffa4cdcecde53fd6f563221d53c6bc1328848a3" },
+]
+
+[[package]]
+name = "pygithub"
+version = "2.6.1"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+dependencies = [
+    { name = "deprecated" },
+    { name = "pyjwt", extra = ["crypto"] },
+    { name = "pynacl" },
+    { name = "requests" },
+    { name = "typing-extensions" },
+    { name = "urllib3" },
+]
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pygithub/2.6.1/pygithub-2.6.1.tar.gz", hash = "sha256:b5c035392991cca63959e9453286b41b54d83bf2de2daa7d7ff7e4312cebf3bf" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pygithub/2.6.1/PyGithub-2.6.1-py3-none-any.whl", hash = "sha256:6f2fa6d076ccae475f9fc392cc6cdbd54db985d4f69b8833a28397de75ed6ca3" },
+]
+
+[[package]]
+name = "pygments"
+version = "2.19.1"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pygments/2.19.1/pygments-2.19.1.tar.gz", hash = "sha256:61c16d2a8576dc0649d9f39e089b5f02bcd27fba10d8fb4dcc28173f7a45151f" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pygments/2.19.1/pygments-2.19.1-py3-none-any.whl", hash = "sha256:9ea1544ad55cecf4b8242fab6dd35a93bbce657034b0611ee383099054ab6d8c" },
+]
+
+[[package]]
+name = "pyjwt"
+version = "2.10.1"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pyjwt/2.10.1/pyjwt-2.10.1.tar.gz", hash = "sha256:3cc5772eb20009233caf06e9d8a0577824723b44e6648ee0a2aedb6cf9381953" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pyjwt/2.10.1/PyJWT-2.10.1-py3-none-any.whl", hash = "sha256:dcdd193e30abefd5debf142f9adfcdd2b58004e644f25406ffaebd50bd98dacb" },
+]
+
+[package.optional-dependencies]
+crypto = [
+    { name = "cryptography" },
+]
+
+[[package]]
+name = "pynacl"
+version = "1.5.0"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+dependencies = [
+    { name = "cffi" },
+]
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pynacl/1.5/PyNaCl-1.5.0.tar.gz", hash = "sha256:8ac7448f09ab85811607bdd21ec2464495ac8b7c66d146bf545b0f08fb9220ba" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pynacl/1.5/PyNaCl-1.5.0-cp36-abi3-macosx_10_10_universal2.whl", hash = "sha256:401002a4aaa07c9414132aaed7f6836ff98f59277a234704ff66878c2ee4a0d1" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pynacl/1.5/PyNaCl-1.5.0-cp36-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.manylinux_2_24_aarch64.whl", hash = "sha256:52cb72a79269189d4e0dc537556f4740f7f0a9ec41c1322598799b0bdad4ef92" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pynacl/1.5/PyNaCl-1.5.0-cp36-abi3-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:a36d4a9dda1f19ce6e03c9a784a2921a4b726b02e1c736600ca9c22029474394" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pynacl/1.5/PyNaCl-1.5.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.manylinux_2_24_x86_64.whl", hash = "sha256:0c84947a22519e013607c9be43706dd42513f9e6ae5d39d3613ca1e142fba44d" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pynacl/1.5/PyNaCl-1.5.0-cp36-abi3-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:06b8f6fa7f5de8d5d2f7573fe8c863c051225a27b61e6860fd047b1775807858" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pynacl/1.5/PyNaCl-1.5.0-cp36-abi3-musllinux_1_1_aarch64.whl", hash = "sha256:a422368fc821589c228f4c49438a368831cb5bbc0eab5ebe1d7fac9dded6567b" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pynacl/1.5/PyNaCl-1.5.0-cp36-abi3-musllinux_1_1_x86_64.whl", hash = "sha256:61f642bf2378713e2c2e1de73444a3778e5f0a38be6fee0fe532fe30060282ff" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pynacl/1.5/PyNaCl-1.5.0-cp36-abi3-win32.whl", hash = "sha256:e46dae94e34b085175f8abb3b0aaa7da40767865ac82c928eeb9e57e1ea8a543" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pynacl/1.5/PyNaCl-1.5.0-cp36-abi3-win_amd64.whl", hash = "sha256:20f42270d27e1b6a29f54032090b972d97f0a1b0948cc52392041ef7831fee93" },
+]
+
+[[package]]
+name = "pyphen"
+version = "0.17.2"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pyphen/0.17.2/pyphen-0.17.2.tar.gz", hash = "sha256:f60647a9c9b30ec6c59910097af82bc5dd2d36576b918e44148d8b07ef3b4aa3" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pyphen/0.17.2/pyphen-0.17.2-py3-none-any.whl", hash = "sha256:3a07fb017cb2341e1d9ff31b8634efb1ae4dc4b130468c7c39dd3d32e7c3affd" },
+]
+
+[[package]]
+name = "pyvis"
+version = "0.3.2"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+dependencies = [
+    { name = "ipython" },
+    { name = "jinja2" },
+    { name = "jsonpickle" },
+    { name = "networkx" },
+]
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pyvis/0.3.2/pyvis-0.3.2-py3-none-any.whl", hash = "sha256:5720c4ca8161dc5d9ab352015723abb7a8bb8fb443edeb07f7a322db34a97555" },
+]
+
+[[package]]
+name = "pyyaml"
+version = "6.0.2"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pyyaml/6.0.2/pyyaml-6.0.2.tar.gz", hash = "sha256:d584d9ec91ad65861cc08d42e834324ef890a082e591037abe114850ff7bbc3e" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pyyaml/6.0.2/PyYAML-6.0.2-cp312-cp312-macosx_10_9_x86_64.whl", hash = "sha256:c70c95198c015b85feafc136515252a261a84561b7b1d51e3384e0655ddf25ab" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pyyaml/6.0.2/PyYAML-6.0.2-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:ce826d6ef20b1bc864f0a68340c8b3287705cae2f8b4b1d932177dcc76721725" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pyyaml/6.0.2/PyYAML-6.0.2-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:1f71ea527786de97d1a0cc0eacd1defc0985dcf6b3f17bb77dcfc8c34bec4dc5" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pyyaml/6.0.2/PyYAML-6.0.2-cp312-cp312-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:9b22676e8097e9e22e36d6b7bda33190d0d400f345f23d4065d48f4ca7ae0425" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pyyaml/6.0.2/PyYAML-6.0.2-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:80bab7bfc629882493af4aa31a4cfa43a4c57c83813253626916b8c7ada83476" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pyyaml/6.0.2/PyYAML-6.0.2-cp312-cp312-musllinux_1_1_aarch64.whl", hash = "sha256:0833f8694549e586547b576dcfaba4a6b55b9e96098b36cdc7ebefe667dfed48" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pyyaml/6.0.2/PyYAML-6.0.2-cp312-cp312-musllinux_1_1_x86_64.whl", hash = "sha256:8b9c7197f7cb2738065c481a0461e50ad02f18c78cd75775628afb4d7137fb3b" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pyyaml/6.0.2/PyYAML-6.0.2-cp312-cp312-win32.whl", hash = "sha256:ef6107725bd54b262d6dedcc2af448a266975032bc85ef0172c5f059da6325b4" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pyyaml/6.0.2/PyYAML-6.0.2-cp312-cp312-win_amd64.whl", hash = "sha256:7e7401d0de89a9a855c839bc697c079a4af81cf878373abd7dc625847d25cbd8" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pyyaml/6.0.2/PyYAML-6.0.2-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:efdca5630322a10774e8e98e1af481aad470dd62c3170801852d752aa7a783ba" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pyyaml/6.0.2/PyYAML-6.0.2-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:50187695423ffe49e2deacb8cd10510bc361faac997de9efef88badc3bb9e2d1" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pyyaml/6.0.2/PyYAML-6.0.2-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:0ffe8360bab4910ef1b9e87fb812d8bc0a308b0d0eef8c8f44e0254ab3b07133" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pyyaml/6.0.2/PyYAML-6.0.2-cp313-cp313-manylinux_2_17_s390x.manylinux2014_s390x.whl", hash = "sha256:17e311b6c678207928d649faa7cb0d7b4c26a0ba73d41e99c4fff6b6c3276484" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pyyaml/6.0.2/PyYAML-6.0.2-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:70b189594dbe54f75ab3a1acec5f1e3faa7e8cf2f1e08d9b561cb41b845f69d5" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pyyaml/6.0.2/PyYAML-6.0.2-cp313-cp313-musllinux_1_1_aarch64.whl", hash = "sha256:41e4e3953a79407c794916fa277a82531dd93aad34e29c2a514c2c0c5fe971cc" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pyyaml/6.0.2/PyYAML-6.0.2-cp313-cp313-musllinux_1_1_x86_64.whl", hash = "sha256:68ccc6023a3400877818152ad9a1033e3db8625d899c72eacb5a668902e4d652" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pyyaml/6.0.2/PyYAML-6.0.2-cp313-cp313-win32.whl", hash = "sha256:bc2fa7c6b47d6bc618dd7fb02ef6fdedb1090ec036abab80d4681424b84c1183" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/pyyaml/6.0.2/PyYAML-6.0.2-cp313-cp313-win_amd64.whl", hash = "sha256:8388ee1976c416731879ac16da0aff3f63b286ffdd57cdeb95f3f2e085687563" },
+]
+
+[[package]]
+name = "requests"
+version = "2.32.3"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+dependencies = [
+    { name = "certifi" },
+    { name = "charset-normalizer" },
+    { name = "idna" },
+    { name = "urllib3" },
+]
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/requests/2.32.3/requests-2.32.3.tar.gz", hash = "sha256:55365417734eb18255590a9ff9eb97e9e1da868d4ccd6402399eaf68af20a760" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/requests/2.32.3/requests-2.32.3-py3-none-any.whl", hash = "sha256:70761cfe03c773ceb22aa2f671b4757976145175cdfca038c02654d061d6dcc6" },
+]
+
+[[package]]
+name = "stack-data"
+version = "0.6.3"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+dependencies = [
+    { name = "asttokens" },
+    { name = "executing" },
+    { name = "pure-eval" },
+]
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/stack-data/0.6.3/stack_data-0.6.3.tar.gz", hash = "sha256:836a778de4fec4dcd1dcd89ed8abff8a221f58308462e1c4aa2a3cf30148f0b9" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/stack-data/0.6.3/stack_data-0.6.3-py3-none-any.whl", hash = "sha256:d5558e0c25a4cb0853cddad3d77da9891a08cb85dd9f9f91b9f8cd66e511e695" },
+]
+
+[[package]]
+name = "tinycss2"
+version = "1.4.0"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+dependencies = [
+    { name = "webencodings" },
+]
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/tinycss2/1.4/tinycss2-1.4.0.tar.gz", hash = "sha256:10c0972f6fc0fbee87c3edb76549357415e94548c1ae10ebccdea16fb404a9b7" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/tinycss2/1.4/tinycss2-1.4.0-py3-none-any.whl", hash = "sha256:3a49cf47b7675da0b15d0c6e1df8df4ebd96e9394bb905a5775adb0d884c5289" },
+]
+
+[[package]]
+name = "tinyhtml5"
+version = "2.0.0"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+dependencies = [
+    { name = "webencodings" },
+]
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/tinyhtml5/2/tinyhtml5-2.0.0.tar.gz", hash = "sha256:086f998833da24c300c414d9fe81d9b368fd04cb9d2596a008421cbc705fcfcc" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/tinyhtml5/2/tinyhtml5-2.0.0-py3-none-any.whl", hash = "sha256:13683277c5b176d070f82d099d977194b7a1e26815b016114f581a74bbfbf47e" },
+]
+
+[[package]]
+name = "traitlets"
+version = "5.14.3"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/traitlets/5.14.3/traitlets-5.14.3.tar.gz", hash = "sha256:9ed0579d3502c94b4b3732ac120375cda96f923114522847de4b3bb98b96b6b7" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/traitlets/5.14.3/traitlets-5.14.3-py3-none-any.whl", hash = "sha256:b74e89e397b1ed28cc831db7aea759ba6640cb3de13090ca145426688ff1ac4f" },
+]
+
+[[package]]
+name = "typing-extensions"
+version = "4.13.2"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/typing-extensions/4.13.2/typing_extensions-4.13.2.tar.gz", hash = "sha256:e6c81219bd689f51865d9e372991c540bda33a0379d5573cddb9a3a23f7caaef" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/typing-extensions/4.13.2/typing_extensions-4.13.2-py3-none-any.whl", hash = "sha256:a439e7c04b49fec3e5d3e2beaa21755cadbbdc391694e28ccdd36ca4a1408f8c" },
+]
+
+[[package]]
+name = "urllib3"
+version = "2.4.0"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/urllib3/2.4/urllib3-2.4.0.tar.gz", hash = "sha256:414bc6535b787febd7567804cc015fee39daab8ad86268f1310a9250697de466" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/urllib3/2.4/urllib3-2.4.0-py3-none-any.whl", hash = "sha256:4e16665048960a0900c702d4a66415956a584919c03361cac9f1df5c5dd7e813" },
+]
+
+[[package]]
+name = "wcwidth"
+version = "0.2.13"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wcwidth/0.2.13/wcwidth-0.2.13.tar.gz", hash = "sha256:72ea0c06399eb286d978fdedb6923a9eb47e1c486ce63e9b4e64fc18303972b5" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wcwidth/0.2.13/wcwidth-0.2.13-py2.py3-none-any.whl", hash = "sha256:3da69048e4540d84af32131829ff948f1e022c1c6bdb8d6102117aac784f6859" },
+]
+
+[[package]]
+name = "weasyprint"
+version = "65.1"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+dependencies = [
+    { name = "cffi" },
+    { name = "cssselect2" },
+    { name = "fonttools", extra = ["woff"] },
+    { name = "pillow" },
+    { name = "pydyf" },
+    { name = "pyphen" },
+    { name = "tinycss2" },
+    { name = "tinyhtml5" },
+]
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/weasyprint/65.1/weasyprint-65.1.tar.gz", hash = "sha256:120281bdbd42ffaa7d7e5cedbe3182a2cef36ea5ad97fe9f357e43be6a1e58ea" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/weasyprint/65.1/weasyprint-65.1-py3-none-any.whl", hash = "sha256:9baa54282dc86929f6b877034d06b0416e2a7cacb1af3f73d80960592fd0af89" },
+]
+
+[[package]]
+name = "webencodings"
+version = "0.5.1"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/webencodings/0.5.1/webencodings-0.5.1.tar.gz", hash = "sha256:b36a1c245f2d304965eb4e0a82848379241dc04b865afcc4aab16748587e1923" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/webencodings/0.5.1/webencodings-0.5.1-py2.py3-none-any.whl", hash = "sha256:a0af1213f3c2226497a97e2b3aa01a7e4bee4f403f95be16fc9acd2947514a78" },
+]
+
+[[package]]
+name = "wrapt"
+version = "1.17.2"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2.tar.gz", hash = "sha256:41388e9d4d1522446fe79d3213196bd9e3b301a336965b9e27ca2788ebd122f3" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp312-cp312-macosx_10_13_universal2.whl", hash = "sha256:d5e2439eecc762cd85e7bd37161d4714aa03a33c5ba884e26c81559817ca0925" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp312-cp312-macosx_10_13_x86_64.whl", hash = "sha256:3fc7cb4c1c744f8c05cd5f9438a3caa6ab94ce8344e952d7c45a8ed59dd88392" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp312-cp312-macosx_11_0_arm64.whl", hash = "sha256:8fdbdb757d5390f7c675e558fd3186d590973244fab0c5fe63d373ade3e99d40" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:5bb1d0dbf99411f3d871deb6faa9aabb9d4e744d67dcaaa05399af89d847a91d" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp312-cp312-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:d18a4865f46b8579d44e4fe1e2bcbc6472ad83d98e22a26c963d46e4c125ef0b" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp312-cp312-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:bc570b5f14a79734437cb7b0500376b6b791153314986074486e0b0fa8d71d98" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp312-cp312-musllinux_1_2_aarch64.whl", hash = "sha256:6d9187b01bebc3875bac9b087948a2bccefe464a7d8f627cf6e48b1bbae30f82" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp312-cp312-musllinux_1_2_i686.whl", hash = "sha256:9e8659775f1adf02eb1e6f109751268e493c73716ca5761f8acb695e52a756ae" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:e8b2816ebef96d83657b56306152a93909a83f23994f4b30ad4573b00bd11bb9" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp312-cp312-win32.whl", hash = "sha256:468090021f391fe0056ad3e807e3d9034e0fd01adcd3bdfba977b6fdf4213ea9" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp312-cp312-win_amd64.whl", hash = "sha256:ec89ed91f2fa8e3f52ae53cd3cf640d6feff92ba90d62236a81e4e563ac0e991" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp313-cp313-macosx_10_13_universal2.whl", hash = "sha256:6ed6ffac43aecfe6d86ec5b74b06a5be33d5bb9243d055141e8cabb12aa08125" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:35621ae4c00e056adb0009f8e86e28eb4a41a4bfa8f9bfa9fca7d343fe94f998" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp313-cp313-macosx_11_0_arm64.whl", hash = "sha256:a604bf7a053f8362d27eb9fefd2097f82600b856d5abe996d623babd067b1ab5" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:5cbabee4f083b6b4cd282f5b817a867cf0b1028c54d445b7ec7cfe6505057cf8" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp313-cp313-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:49703ce2ddc220df165bd2962f8e03b84c89fee2d65e1c24a7defff6f988f4d6" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp313-cp313-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:8112e52c5822fc4253f3901b676c55ddf288614dc7011634e2719718eaa187dc" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:9fee687dce376205d9a494e9c121e27183b2a3df18037f89d69bd7b35bcf59e2" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp313-cp313-musllinux_1_2_i686.whl", hash = "sha256:18983c537e04d11cf027fbb60a1e8dfd5190e2b60cc27bc0808e653e7b218d1b" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:703919b1633412ab54bcf920ab388735832fdcb9f9a00ae49387f0fe67dad504" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp313-cp313-win32.whl", hash = "sha256:abbb9e76177c35d4e8568e58650aa6926040d6a9f6f03435b7a522bf1c487f9a" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp313-cp313-win_amd64.whl", hash = "sha256:69606d7bb691b50a4240ce6b22ebb319c1cfb164e5f6569835058196e0f3a845" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp313-cp313t-macosx_10_13_universal2.whl", hash = "sha256:4a721d3c943dae44f8e243b380cb645a709ba5bd35d3ad27bc2ed947e9c68192" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp313-cp313t-macosx_10_13_x86_64.whl", hash = "sha256:766d8bbefcb9e00c3ac3b000d9acc51f1b399513f44d77dfe0eb026ad7c9a19b" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp313-cp313t-macosx_11_0_arm64.whl", hash = "sha256:e496a8ce2c256da1eb98bd15803a79bee00fc351f5dfb9ea82594a3f058309e0" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp313-cp313t-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:40d615e4fe22f4ad3528448c193b218e077656ca9ccb22ce2cb20db730f8d306" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp313-cp313t-manylinux_2_5_i686.manylinux1_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:a5aaeff38654462bc4b09023918b7f21790efb807f54c000a39d41d69cf552cb" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp313-cp313t-manylinux_2_5_x86_64.manylinux1_x86_64.manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:9a7d15bbd2bc99e92e39f49a04653062ee6085c0e18b3b7512a4f2fe91f2d681" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp313-cp313t-musllinux_1_2_aarch64.whl", hash = "sha256:e3890b508a23299083e065f435a492b5435eba6e304a7114d2f919d400888cc6" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp313-cp313t-musllinux_1_2_i686.whl", hash = "sha256:8c8b293cd65ad716d13d8dd3624e42e5a19cc2a2f1acc74b30c2c13f15cb61a6" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp313-cp313t-musllinux_1_2_x86_64.whl", hash = "sha256:4c82b8785d98cdd9fed4cac84d765d234ed3251bd6afe34cb7ac523cb93e8b4f" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp313-cp313t-win32.whl", hash = "sha256:13e6afb7fe71fe7485a4550a8844cc9ffbe263c0f1a1eea569bc7091d4898555" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-cp313-cp313t-win_amd64.whl", hash = "sha256:eaf675418ed6b3b31c7a989fd007fa7c3be66ce14e5c3b27336383604c9da85c" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/wrapt/1.17.2/wrapt-1.17.2-py3-none-any.whl", hash = "sha256:b18f2d1533a71f069c7f82d524a52599053d4c7166e9dd374ae2136b7f40f7c8" },
+]
+
+[[package]]
+name = "zopfli"
+version = "0.2.3.post1"
+source = { registry = "https://pkgs.dev.azure.com/toqua/_packaging/toqua/pypi/simple/" }
+sdist = { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/zopfli/0.2.3.post1/zopfli-0.2.3.post1.tar.gz", hash = "sha256:96484dc0f48be1c5d7ae9f38ed1ce41e3675fd506b27c11a6607f14b49101e99" }
+wheels = [
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/zopfli/0.2.3.post1/zopfli-0.2.3.post1-cp312-cp312-macosx_10_13_universal2.whl", hash = "sha256:3f0197b6aa6eb3086ae9e66d6dd86c4d502b6c68b0ec490496348ae8c05ecaef" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/zopfli/0.2.3.post1/zopfli-0.2.3.post1-cp312-cp312-macosx_10_13_x86_64.whl", hash = "sha256:5fcfc0dc2761e4fcc15ad5d273b4d58c2e8e059d3214a7390d4d3c8e2aee644e" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/zopfli/0.2.3.post1/zopfli-0.2.3.post1-cp312-cp312-manylinux_2_12_i686.manylinux2010_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:cac2b37ab21c2b36a10b685b1893ebd6b0f83ae26004838ac817680881576567" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/zopfli/0.2.3.post1/zopfli-0.2.3.post1-cp312-cp312-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:8d5ab297d660b75c159190ce6d73035502310e40fd35170aed7d1a1aea7ddd65" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/zopfli/0.2.3.post1/zopfli-0.2.3.post1-cp312-cp312-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:9ba214f4f45bec195ee8559651154d3ac2932470b9d91c5715fc29c013349f8c" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/zopfli/0.2.3.post1/zopfli-0.2.3.post1-cp312-cp312-musllinux_1_2_aarch64.whl", hash = "sha256:c1e0ed5d84ffa2d677cc9582fc01e61dab2e7ef8b8996e055f0a76167b1b94df" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/zopfli/0.2.3.post1/zopfli-0.2.3.post1-cp312-cp312-musllinux_1_2_i686.whl", hash = "sha256:bfa1eb759e07d8b7aa7a310a2bc535e127ee70addf90dc8d4b946b593c3e51a8" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/zopfli/0.2.3.post1/zopfli-0.2.3.post1-cp312-cp312-musllinux_1_2_x86_64.whl", hash = "sha256:cd2c002f160502608dcc822ed2441a0f4509c52e86fcfd1a09e937278ed1ca14" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/zopfli/0.2.3.post1/zopfli-0.2.3.post1-cp312-cp312-win32.whl", hash = "sha256:7be5cc6732eb7b4df17305d8a7b293223f934a31783a874a01164703bc1be6cd" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/zopfli/0.2.3.post1/zopfli-0.2.3.post1-cp312-cp312-win_amd64.whl", hash = "sha256:4e50ffac74842c1c1018b9b73875a0d0a877c066ab06bf7cccbaa84af97e754f" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/zopfli/0.2.3.post1/zopfli-0.2.3.post1-cp313-cp313-macosx_10_13_universal2.whl", hash = "sha256:ecb7572df5372abce8073df078207d9d1749f20b8b136089916a4a0868d56051" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/zopfli/0.2.3.post1/zopfli-0.2.3.post1-cp313-cp313-macosx_10_13_x86_64.whl", hash = "sha256:a1cf720896d2ce998bc8e051d4b4ce0d8bec007aab6243102e8e1d22a0b2fb3f" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/zopfli/0.2.3.post1/zopfli-0.2.3.post1-cp313-cp313-manylinux_2_12_i686.manylinux2010_i686.manylinux_2_17_i686.manylinux2014_i686.whl", hash = "sha256:5aad740b4d4fcbaaae4887823925166ffd062db3b248b3f432198fc287381d1a" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/zopfli/0.2.3.post1/zopfli-0.2.3.post1-cp313-cp313-manylinux_2_17_aarch64.manylinux2014_aarch64.whl", hash = "sha256:6617fb10f9e4393b331941861d73afb119cd847e88e4974bdbe8068ceef3f73f" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/zopfli/0.2.3.post1/zopfli-0.2.3.post1-cp313-cp313-manylinux_2_17_x86_64.manylinux2014_x86_64.whl", hash = "sha256:a53b18797cdef27e019db595d66c4b077325afe2fd62145953275f53d84ce40c" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/zopfli/0.2.3.post1/zopfli-0.2.3.post1-cp313-cp313-musllinux_1_2_aarch64.whl", hash = "sha256:b78008a69300d929ca2efeffec951b64a312e9a811e265ea4a907ab546d79fa6" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/zopfli/0.2.3.post1/zopfli-0.2.3.post1-cp313-cp313-musllinux_1_2_i686.whl", hash = "sha256:0aa5f90d6298bda02a95bc8dc8c3c19004d5a4e44bda00b67ca7431d857b4b54" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/zopfli/0.2.3.post1/zopfli-0.2.3.post1-cp313-cp313-musllinux_1_2_x86_64.whl", hash = "sha256:2768c877f76c8a0e7519b1c86c93757f3c01492ddde55751e9988afb7eff64e1" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/zopfli/0.2.3.post1/zopfli-0.2.3.post1-cp313-cp313-win32.whl", hash = "sha256:71390dbd3fbf6ebea9a5d85ffed8c26ee1453ee09248e9b88486e30e0397b775" },
+    { url = "https://pkgs.dev.azure.com/toqua/_packaging/eed14021-87e9-432b-b42b-7f2ef6358522/pypi/download/zopfli/0.2.3.post1/zopfli-0.2.3.post1-cp313-cp313-win_amd64.whl", hash = "sha256:a86eb88e06bd87e1fff31dac878965c26b0c26db59ddcf78bb0379a954b120de" },
+]
