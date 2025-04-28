@@ -89,7 +89,7 @@ uv run main.py
     githoundsec
   ```
 
-> Note: This setup is primarily for Linux systems using X11. For macOS and Windows, additional configuration is required to enable GUI applications from Docker containers.
+> Note: This docker setup is primarily for Linux systems using X11. For macOS and Windows, additional configuration is required to enable GUI applications from Docker containers.
 
 > Note: for MacOS users, you can use `xquartz` to run GUI applications from Docker containers. Install `xquartz` and [follow the instructions](https://gist.github.com/roaldnefs/fe9f36b0e8cf2890af14572c083b516c) to set up X11 forwarding.
 
